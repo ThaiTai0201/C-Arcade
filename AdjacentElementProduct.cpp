@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
+
 using namespace std;
+
 int maxProductOfAdjacentElements(const vector<int>& arr) {
     if (arr.size() < 2) {
         return -1;
